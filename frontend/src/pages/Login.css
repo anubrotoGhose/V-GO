@@ -1,0 +1,63 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    /* background-color: #333; Dark background color */
+  }
+  
+  .login-box {
+    /* background-color: #8F8F8F; Darker box background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff; /* Text color */
+  }
+  
+  h2 {
+    color: #000;
+    margin-bottom: 20px;
+  }
+  h3 {
+    color: #000;
+    margin-bottom: 20px;
+  }
+ 
+  .custom-input-username {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D3D3D3;
+    color: #000000;
+    font-size: 16px; /* Set the same font size for both username and password */
+    margin-right: 10px;
+  }
+  .custom-input-password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #D3D3D3;
+    color: #000000;
+    font-size: 16px; /* Set the same font size for both username and password */
+  }  
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #007bff; Button background color */
+    background-color: #FF0000;
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8B0000; /* Button background color on hover */
+  }
+  
