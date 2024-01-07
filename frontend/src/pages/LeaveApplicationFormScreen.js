@@ -128,7 +128,9 @@ const LeaveApplicationForm = () => {
         </div>
 
         <center>
-          <button type="submit">Submit Leave Application</button>
+          <button
+          className="leave-application-submit-button"
+          type="submit">Submit Leave Application</button>
         </center>
       </form>
     </div>

@@ -5,15 +5,36 @@
     height: 75vh;
     /* background-color: #333; Dark background color */
   }
-  
+
+
   .login-box {
     /* background-color: #8F8F8F; Darker box background color */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10vh rgba(0, 0, 0, 0.3);
     text-align: center;
     color: #fff; /* Text color */
+    width: 100%;
+
   }
+
+  @media screen and (min-width: 500px) {
+    .login-box {
+      /* Increase the size for desktop screens */
+      width: 120%; /* Example: increase width */
+      padding: 40px; /* Example: increase padding */
+    }
+  }
+
+  .title {
+    /* existing styles */
+    padding: 10px; /* Adjust the value as needed */
+}
+
+.subtitle {
+    /* existing styles */
+    padding: 10px; /* Adjust the value as needed */
+}
   
   h2 {
     color: #000;
@@ -44,9 +65,9 @@
     background-color: #D3D3D3;
     color: #000000;
     font-size: 16px; /* Set the same font size for both username and password */
-  }  
+  }
 
-  button {
+  .login-button {
     width: 100%;
     padding: 10px;
     border: none;
@@ -57,7 +78,7 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .login-button:hover {
     background-color: #8B0000; /* Button background color on hover */
   }
   

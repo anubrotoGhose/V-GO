@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Navbar from "./components/NavBar";
 import LeaveApplicationFormScreen from './pages/LeaveApplicationFormScreen';
 import LeaveApprovalPage from './pages/LeaveApprovalPage';
+import 'bulma/css/bulma.min.css';
 function App() {
   return (
     <div>
